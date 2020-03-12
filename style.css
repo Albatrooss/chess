@@ -1,0 +1,67 @@
+.body {
+  background-color: #aaaaaa;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.window {
+  width: 820px;
+  height:820px;
+  padding: 0 10px 10PX 0;
+}
+.row {
+  height: 100px;
+  display: flex;
+}
+
+.numberLabel {
+  font-size: 1rem;
+  padding-top: 42px;
+  height: 100%;
+  width: 10px;
+}
+
+.letterLabel {
+  display: flex;
+  padding: 0 10px;
+}
+.letterLabel p {
+  width: 100px;
+  text-align: center;
+  margin: 0
+}
+
+.emptyCell:hover {
+  background-color: lightblue;
+}
+
+.emptyCell {
+  width: 100%;
+  height: 100%;
+}
+
+.col,
+.colgrey {
+  height: 100%;
+  width: 100px;
+  background-color: #ffffff;
+  
+}
+
+.colgrey {
+  background-color: darkgrey;
+}
+
+.highlightedCell {
+  background-color: #E8DF6F;
+}
+
+.piece:hover {
+  background-color: yellow;
+}
+
+.piece {
+  margin-left: 19px;
+}
